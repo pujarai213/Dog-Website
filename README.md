@@ -1,2 +1,2 @@
 # Dog-Website
-This is website related to dogs.
+This website related to dogs.
