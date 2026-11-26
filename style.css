@@ -42,6 +42,7 @@
   background-image: linear-gradient(to right, #3f2e23, #1b191c);
   color: #fff;
   display: flex;
+  overflow: hidden;
 }
 .toleft {
   width: 60%;
@@ -63,6 +64,24 @@
 .toright {
   margin-right: 182px;
   object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-popout-img {
+  width: 380px;
+  max-height: 500px;
+  object-fit: contain;
+  animation: popOut 2s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+@keyframes popOut {
+  0% {
+    transform: scale(0.9) translateY(10px);
+  }
+  100% {
+    transform: scale(1.15) translateY(-10px);
+  }
 }
 .page2 {
   width: 100%;
