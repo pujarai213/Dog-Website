@@ -79,8 +79,10 @@
  
 }
 .image img{
-  width: 270px;
-  margin-left: 345px;
+  width: 320px;
+  border-radius: 20px;
+  margin-left: 280px;
+  object-fit: cover;
 }
 .text {
   width: 50%;
